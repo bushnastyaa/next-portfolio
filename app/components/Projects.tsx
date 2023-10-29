@@ -19,7 +19,7 @@ const projects = [
   {
     id: 2,
     title: "Чат (Slack)",
-    subtitle: "React, Redux, Bootstrap",
+    subtitle: "React, Redux Toolkit, Bootstrap",
     description: `Упрощенная версия чата Slack. Реализовано через 
     WebSocket. Для авторизации и аутентификации используется 
     технология JWT. Формы создаются с помощью библиотеки Formik`,
@@ -29,6 +29,17 @@ const projects = [
   },
   {
     id: 3,
+    title: "Интернет-магазин",
+    subtitle: "TS, React, Redux Toolkit, RTK Query",
+    description: `Интернет-магазин с фокусом на простоту и чистый
+    дизайн. Приоритет отдается пользовательскому опыту,
+    легко находить нужную продукцию по категориям и совершать покупки`,
+    image: "/images/projects/store-mirage.png",
+    gitUrl: "https://github.com/bushnastyaa/react-online-store.git",
+    previewUrl: "https://react-online-store-zeta.vercel.app",
+  },
+  {
+    id: 4,
     title: "Full-stack Web Blog",
     subtitle: "React, Express, MongoDB, Tailwind",
     description: `Веб-блог, предоставляет пользователям возможность 
@@ -39,7 +50,7 @@ const projects = [
     previewUrl: "https://web-blog-jp52.onrender.com",
   },
   {
-    id: 4,
+    id: 5,
     title: "Валидатор данных",
     subtitle: "Прокачка проектирования объектно-ориентированной архитектуры",
     description: `Библиотека для проверки корректности 
@@ -50,7 +61,7 @@ const projects = [
     gitUrl: "https://github.com/bushnastyaa/js-oop-project-62.git",
   },
   {
-    id: 5,
+    id: 6,
     title: "Загрузчик страниц",
     subtitle: "Прокачка написания асинхронного кода",
     description: `Утилита, которая скачивает страницы из интернета на 

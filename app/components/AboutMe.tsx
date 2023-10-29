@@ -23,8 +23,8 @@ const data = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Hexlet, курсы по Frontend/Node.js разработке</li>
         <li>IThub college, веб-разработчик</li>
+        <li>Hexlet, курсы по Frontend/Node.js разработке</li>
       </ul>
     ),
   },

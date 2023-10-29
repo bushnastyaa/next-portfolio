@@ -20,7 +20,7 @@ const Hero = () => {
             </span>
             <TypeAnimation
               sequence={[
-                "Настя",
+                "Анастасия",
                 1000,
                 "Веб разработчик",
                 1000,
