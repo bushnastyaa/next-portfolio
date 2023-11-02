@@ -10,6 +10,7 @@ const data = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>HTML / CSS / SASS</li>
         <li>JavaScript / TypeScript</li>
         <li>React / Next.js / Redux</li>
         <li>Node.js / Express</li>
